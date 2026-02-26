@@ -1,0 +1,25 @@
+.class {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+}
+
+@keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+@keyframes fadeOut {
+    from {opacity: 1;}
+    to {opacity: 0;}
+}
+
+@keyframes bounce {
+    from {transform: translateY(0);}
+    to {transform: translateY(-10px);}
+}
+
+.box:hover{
+    opacity: 0;
+    animation: fadeIn 0.5s ease, bounce 0.5s ease infinite;
+}

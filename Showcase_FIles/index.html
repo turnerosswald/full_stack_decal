@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <b>
+            My Favorite Show is 
+            <i>
+                The Office<br>
+            </i>
+        </b>
+    </head>
+    <body>
+        Here is an office meme:<br>
+        <center>
+            <img src= "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT72jfpQAchxIAT3X7DplbBHD0EuzLAZ5iKhA&s" alt = "The Office Meme">
+        </center>
+    </body>
+    <body>
+        Here is a poll for the office:<br>
+        <center>
+            <form action = "submit.php" method = "post">
+                <label for = "favorite_character"> Who is your favorite character?
+                    <select name = "favorite_character" id = "favorite_character">
+                        <option value = "Michael"> Michael Scoot </option>
+                        <option value = "Dwight"> Dwight Schrute </option>
+                        <option value = "Jim"> Jim Halpert </option>
+                        <option value = "Pam"> Pam Beesly</option>
+                        <option value = "Creed"> Creed </option>
+                    </select>
+                    <input type = "button" value = "Submit" onclick = "alert('Thank you for submitting your answer! ' + document.getElementById('favorite_character').value + ' is a good choice!')">
+
+                </label>
+            </form>
+        </center>
+    </body>
+    <footer>
+        <center>
+            <p>
+                <font size = "30" font color = "blue">
+                    Thank you for visiting my website about <b>The Office!</b>
+                </font>
+            </p>
+        </center>
+    </footer>
+</html>

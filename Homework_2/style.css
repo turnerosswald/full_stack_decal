@@ -1,0 +1,33 @@
+html {
+    font-family: 'Comic Sans MS', 'cursive', 'Arial', 'sans-serif';
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Papyrus', 'Arial', 'sans-serif';
+    color: purple;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+li {
+    display: inline;
+    background-color: gray;
+    color: black;
+    margin:0;
+    padding: 16px;
+}
+a {
+    color: black;
+}
+li:hover {
+    background-color: #AAA;
+    transition: background-color 0.3s ease;
+}
+footer {
+    background-color: #DDD;
+    padding: 16px;
+    margin: 0;
+    color: #555;
+    text-align: center;
+}
